@@ -1,0 +1,54 @@
+.cakecontainer{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    padding: 30px;
+    background-color: lavender;
+}
+img{
+height: 350px;
+width: 350px;
+}
+.header{
+    width: 350px;
+}
+.active{
+    visibility: hidden;
+}
+.btn{
+    border: none;
+    background-color: blueviolet;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+}
+.btn:hover{
+    background-color: red;
+}
+.closeicon{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: white;
+    cursor: pointer;
+}
+.cakevideo{
+    position: fixed;
+    background: black;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.cakevideo video{
+    height: 500px;
+    width: 450px;
+}
